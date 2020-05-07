@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
-        android:text="Carom"
+        android:text="Carrom"
         android:id="@+id/ca"
         />
     <com.google.android.material.button.MaterialButton
