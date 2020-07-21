@@ -30,11 +30,29 @@ Button login,reg;
                 if(user.getText().toString().length()!=0 && pass.getText().toString().length()!=0) {
                     Intent obj = new Intent(MainActivity.this, Main2Activity.class);
                     startActivity(obj);
+                    finish();
                 }
                 else
                 {
                     Toast.makeText(MainActivity.this, "Invalid Input", Toast.LENGTH_LONG).show();
                 }
+            }
+        });
+
+        reg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent gotoreg = new Intent(MainActivity.this, registration.class);
+                startActivity(gotoreg);
+                finish();
+            }
+        });
+
+        fg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent obj2 = new Intent(MainActivity.this , ForgetPassword.class);
+                startActivity(obj2);
             }
         });
     }
