@@ -15,7 +15,7 @@ public class splash extends AppCompatActivity {
         Thread th=new Thread(){
             public void run(){
                 try{
-                    sleep(3000);
+                    sleep(2000);
                 }catch(Exception t){}
                 finally {
                     Intent spl=new Intent(splash.this,MainActivity.class);

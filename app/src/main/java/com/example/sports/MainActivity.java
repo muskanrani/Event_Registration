@@ -38,5 +38,22 @@ Button login,reg;
                 }
             }
         });
+
+        reg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent gotoreg = new Intent(MainActivity.this, registration.class);
+                startActivity(gotoreg);
+                finish();
+            }
+        });
+
+        fg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent obj2 = new Intent(MainActivity.this , ForgetPassword.class);
+                startActivity(obj2);
+            }
+        });
     }
 }
