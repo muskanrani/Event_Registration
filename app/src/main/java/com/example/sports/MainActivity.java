@@ -30,6 +30,7 @@ Button login,reg;
                 if(user.getText().toString().length()!=0 && pass.getText().toString().length()!=0) {
                     Intent obj = new Intent(MainActivity.this, Main2Activity.class);
                     startActivity(obj);
+                    finish();
                 }
                 else
                 {
