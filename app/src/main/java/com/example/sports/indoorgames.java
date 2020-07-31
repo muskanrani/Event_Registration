@@ -20,22 +20,22 @@ ImageButton carrom,chess, tennis;
         carrom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent crr=new Intent(indoorgames.this,carromTerms.class);
-                startActivity(crr);
+                Intent carromIntent = new Intent(indoorgames.this,carrom.class);
+                startActivity(carromIntent);
             }
         });
         chess.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent chterm=new Intent(indoorgames.this,chessterm.class);
-                startActivity(chterm);
+                Intent chessIntent = new Intent(indoorgames.this,chess.class);
+                startActivity(chessIntent);
             }
         });
         tennis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent teterm=new Intent(indoorgames.this,tabletennisterm.class);
-                startActivity(teterm);
+                Intent tennisIntent = new Intent(indoorgames.this,tabletennis.class);
+                startActivity(tennisIntent);
             }
         });
     }

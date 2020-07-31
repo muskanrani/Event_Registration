@@ -8,6 +8,9 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".Main2Activity">
+
+
+
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,5 +29,11 @@
         android:layout_margin="30dp"
         android:background="@drawable/outdoorlogo"
         android:id="@+id/out"/>
-
+    <TextView
+        android:id="@+id/terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms and Conditions"
+        android:clickable="true"
+        android:textColor="#24a19c"/>
 </LinearLayout>

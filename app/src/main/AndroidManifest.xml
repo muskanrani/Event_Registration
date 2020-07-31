@@ -9,10 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ForgetPassword"></activity>
+        <activity android:name=".TermsAndCondition"></activity>
+        <activity android:name=".ForgetPassword" />
         <activity android:name=".registration" />
-        <activity android:name=".tabletennisterm" />
-        <activity android:name=".chessterm" />
         <activity android:name=".tabletennis" />
         <activity android:name=".chess" />
         <activity android:name=".carrom" />
@@ -23,7 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".carromTerms" />
         <activity android:name=".indoorgames" />
         <activity android:name=".Main2Activity" />
         <activity
